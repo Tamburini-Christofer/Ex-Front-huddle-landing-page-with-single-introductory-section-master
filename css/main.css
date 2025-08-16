@@ -14,15 +14,18 @@ body{
 
 #wrapper{
     width: 90%;
-    height: 90vh;
-    background-color: burlywood;
+    height: 600px;
     margin: 30px auto;
 }
 
 header{
+    padding: 30px 0 45px 0;
     width: 100%;
     height: 25%;
-    background-color: cadetblue;
+}
+
+.logo{
+    max-width: 180px;
 }
 
 main{
@@ -32,20 +35,18 @@ main{
     height: 60%;
 }
 
-footer{
-    width: 100%;
-    height: 15%;
-    background-color: rgb(95, 160, 137);
+.col_sx img{
+    max-width: 100%;
 }
 
 .col_sx{
     background-color: chocolate;
-    width: 60%;
+    width: 50%;
     height: 100%;
 }
 
 .col_dx{
     background-color: rgb(184, 147, 120);
-    width: 40%;
+    width: 50%;
     height: 100%;
 }
